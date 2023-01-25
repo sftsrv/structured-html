@@ -1,6 +1,6 @@
 # HTML to EditorJS
 
-A little library for converting HTML into a structured data format that is compatible with the [EditorJS](https://github.com/codex-team/editor.js) so that HTML data can be passed into the editor
+A little library for converting HTML into a structured data format that is compatible with [EditorJS](https://github.com/codex-team/editor.js) so that HTML data can be passed into the editor
 
 ## Usage
 
