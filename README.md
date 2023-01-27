@@ -9,7 +9,7 @@ While intended for EditorJS, the library may be used for just transforming HTML 
 The conversion from HTML can be done as follows:
 
 ```ts
-import { convertHtmlToBlocks } from "html-editorjs";
+import { convertHtmlToBlocks } from "html-to-editorjs";
 
 // get some RAW HTML
 const htmlText = "<p>hello world</p>";
