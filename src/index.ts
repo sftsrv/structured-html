@@ -190,7 +190,7 @@ const tagHandlers: TagHandlerMap = {
  * @param html input HTML
  * @returns the restructured and simplified HTML
  */
-export const convertHtmlToStructuredContents = (
+export const convertHtmlToStructuredContent = (
   html: Element
 ): EditorContent => {
   const transformed = transform(html);

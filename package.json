@@ -1,7 +1,6 @@
 {
-
   "name": "@sftsrv/structured-html",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "author": "Nabeel Valley",
   "license": "GPL-3.0-only",
   "main": "dist/index.js",
