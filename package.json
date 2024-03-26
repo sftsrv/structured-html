@@ -1,8 +1,9 @@
 {
-  "name": "html-to-editorjs",
-  "version": "1.0.0",
+
+  "name": "@sftsrv/structured-html",
+  "version": "0.0.1",
   "author": "Nabeel Valley",
-  "license": "MIT",
+  "license": "GPL-3.0-only",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
