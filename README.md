@@ -9,7 +9,7 @@ While designed around the [EditorJS](https://github.com/codex-team/editor.js) AP
 The conversion from HTML can be done as follows:
 
 ```ts
-import { convertHtmlToBlocks } from "@sftsrv/structured-html";
+import { convertHtmlToStructuredContents } from "@sftsrv/structured-html";
 
 // get some RAW HTML
 const htmlText = "<p>hello world</p>";
@@ -17,6 +17,6 @@ const htmlText = "<p>hello world</p>";
 // use the DOM to parse it from a string
 const html = new DOMParser().parseFromString(htmlText, "text/html").body;
 
-// the convertHtmlToBlocks function takes an HTML ELement and returns the structured HTML content
-const blocks = convertHtmlToBlocks(html);
+// the convertHtmlToStructuredContents function takes an HTML ELement and returns the structured HTML content
+const blocks = convertHtmlToStructuredContents(html);
 ```

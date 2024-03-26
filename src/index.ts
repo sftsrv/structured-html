@@ -184,7 +184,15 @@ const tagHandlers: TagHandlerMap = {
   H6: headingHandler(6),
 };
 
-export const convertHtmlToBlocks = (html: Element): EditorContent => {
+/**
+ * Converts HTML to structured content
+ *
+ * @param html input HTML
+ * @returns the restructured and simplified HTML
+ */
+export const convertHtmlToStructuredContents = (
+  html: Element
+): EditorContent => {
   const transformed = transform(html);
 
   const baseHandler = tagHandlers[transformed.tagName];
