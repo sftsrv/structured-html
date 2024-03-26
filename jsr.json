@@ -3,6 +3,6 @@
   "version": "0.0.2",
   "exports": {
     ".": "./src/index.ts",
-    "blocks": "./src/blocks.ts"
+    "./blocks": "./src/blocks.ts"
   }
 }
